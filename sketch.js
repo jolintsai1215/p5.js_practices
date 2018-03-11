@@ -3,7 +3,7 @@ class Bubble{
 	constructor(x, y ,r){
 		this.x = x;
 		this.y = y;
-		this.r = r
+		this.r = r;
 
 	}
 	move(){
@@ -27,7 +27,7 @@ function setup() {
 		var r = random(10,100)
 		bubbles[i] = new Bubble(x, y, r);
 	}
-	//bubble = new Bubble(200, 300, 50);
+	
 
 }
 
